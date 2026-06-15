@@ -1,0 +1,25 @@
+﻿{
+  "cells": [
+    {
+      "cellId": 1,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true,
+      "isTaken": false
+    },
+    {
+      "cellId": 2,
+      "orderId": 1001,
+      "cellHasPackage": true,
+      "isClosed": true,
+      "isTaken": true
+    },
+    {
+      "cellId": 3,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true,
+      "isTaken": false
+    }
+  ]
+}
