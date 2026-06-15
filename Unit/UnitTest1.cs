@@ -1,10 +1,54 @@
-﻿namespace Unit;
+﻿using Core.Models;
+using Core.Validators;
+using FluentValidation.TestHelper;
 
-public class UnitTest1
+namespace Unit
 {
-    [Fact]
-    public void Test1()
+    public class ValidationTests
     {
+        private readonly PostamatConfigValidator _validator = new PostamatConfigValidator();
 
+        [Fact]
+        public void Should_Have_Error_When_CellId_Is_Duplicate()
+        {
+            // две ячейки с ID = 1
+            var config = new PostamatConfig
+            {
+                Cells = new List<Cell>
+                {
+                    new Cell { CellId = 1 },
+                    new Cell { CellId = 1 }
+                }
+            };
+
+            // тестирование
+            var result = _validator.TestValidate(config);
+
+            // проверка на ошибки
+            result.ShouldHaveValidationErrorFor(x => x.Cells)
+                  .WithErrorMessage("Обнаружены дубликаты ID ячеек в конфигурации.");
+        }
+
+        [Fact]
+        public void Should_Have_Error_When_Package_Exists_But_OrderId_Is_Null()
+        {
+            // ячейка 2 занята, но OrderId = null
+            var config = new PostamatConfig
+            {
+                Cells = new List<Cell>
+        {
+            new Cell { CellId = 2, CellHasPackage = true, OrderId = null }
+        }
+            };
+
+            var result = _validator.TestValidate(config);
+
+            // 1. Проверяем через IsValid (базовая проверка xUnit)
+            Assert.False(result.IsValid);
+
+            // 2. ИЛИ проверяем конкретную ошибку (это лучший стиль в тестировании)
+            // Мы ожидаем ошибку в первом элементе списка Cells (индекс 0) для поля OrderId
+            result.ShouldHaveValidationErrorFor("Cells[0].OrderId");
+        }
     }
 }
