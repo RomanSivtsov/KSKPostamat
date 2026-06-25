@@ -1,14 +1,6 @@
-\# Подсистема конфигурации и отладки постамата "KSK Postamat"
+# Подсистема конфигурации и отладки постамата "KSK Postamat"
 
-
-
-\[!\[Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
-
-\[!\[.NET Version](https://img.shields.io/badge/.NET-9.0-blue.svg)](https://dotnet.microsoft.com/download)
-
-\[!\[Company](https://img.shields.io/badge/Company-ЧТУП%20"Руд%20Буд"-orange.svg)]()
-
-
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg) ![.NET Version](https://img.shields.io/badge/.NET-9.0-blue.svg) ![Company](https://img.shields.io/badge/Company-ЧТУП%20"Руд%20Буд"-orange.svg)
 
 Данный проект разработан в рамках производственной практики (июнь-июль 2026 г.). Система предназначена для настройки конфигурации ячеек постамата, эмуляции взаимодействия с учётной системой 1С и отладки работы контроллера оборудования.
 
