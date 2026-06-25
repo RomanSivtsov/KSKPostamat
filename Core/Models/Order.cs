@@ -12,5 +12,7 @@ namespace Core.Models
         public decimal Amount { get; set; }
         public bool IsPaid { get; set; }
         public int CellId { get; set; }
+        public bool IsTaken { get; set; }
+        public DateTime? TakenAt { get; set; }
     }
 }

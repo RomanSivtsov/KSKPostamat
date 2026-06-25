@@ -4,22 +4,217 @@
       "cellId": 1,
       "orderId": null,
       "cellHasPackage": false,
-      "isClosed": true,
-      "isTaken": false
+      "isClosed": true
     },
     {
       "cellId": 2,
-      "orderId": 1001,
-      "cellHasPackage": true,
-      "isClosed": true,
-      "isTaken": true
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
     },
     {
       "cellId": 3,
       "orderId": null,
       "cellHasPackage": false,
-      "isClosed": true,
-      "isTaken": false
+      "isClosed": true
+    },
+    {
+      "cellId": 4,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 5,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 6,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 7,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": false
+    },
+    {
+      "cellId": 8,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 9,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 10,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 11,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 12,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 13,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 14,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 15,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": false
+    },
+    {
+      "cellId": 16,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 17,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 18,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 19,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 20,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 21,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 22,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 23,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 24,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 25,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 26,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 27,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 28,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": false
+    },
+    {
+      "cellId": 29,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 30,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 31,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 32,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 33,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 34,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 35,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
+    },
+    {
+      "cellId": 36,
+      "orderId": null,
+      "cellHasPackage": false,
+      "isClosed": true
     }
   ]
 }

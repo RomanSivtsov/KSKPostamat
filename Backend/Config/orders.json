@@ -1,0 +1,22 @@
+﻿{
+  "orders": [
+    {
+      "orderId": 1001,
+      "amount": 500.0,
+      "isPaid": false,
+      "cellId": 7
+    },
+    {
+      "orderId": 1002,
+      "amount": 1200.0,
+      "isPaid": false,
+      "cellId": 28
+    },
+    {
+      "orderId": 1003,
+      "amount": 300.0,
+      "isPaid": false,
+      "cellId": 15
+    }
+  ]
+}

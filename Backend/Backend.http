@@ -1,6 +1,16 @@
 @Backend_HostAddress = http://localhost:5018
 
-GET {{Backend_HostAddress}}/weatherforecast/
+### Получить статус всех ячеек
+GET {{Backend_HostAddress}}/api/cells
 Accept: application/json
 
-###
+### Открыть ячейку №2 (Проверка логики)
+POST {{Backend_HostAddress}}/api/cells/open/2
+Accept: application/json
+
+### Получить инфо о заказе 1001
+GET {{Backend_HostAddress}}/api/order/1001
+Accept: application/json
+
+### Оплатить заказ 1001 и открыть ячейку
+POST {{Backend_HostAddress}}/api/process-payment?orderId=1001
