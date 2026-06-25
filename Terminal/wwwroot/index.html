@@ -2,104 +2,143 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>KSK Postamat - Панель отладки</title>
+    <title>KSK Postamat Terminal</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #e0e0e0;
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            height: 95vh;
+        :root {
+            --bg-color: #f0f3f6;
+            --panel-bg: #ffffff;
+            --primary-blue: #1a3a5a;
+            --status-green: #27ae60;
+            --status-red: #e74c3c;
+            --border-color: #cbd5e0;
         }
 
-        /* Верхний ряд: Логирование и Статус */
-        .top-row {
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: var(--bg-color);
+            margin: 0;
+            padding: 0;
+            width: 1024px;
+            height: 768px;
             display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        header {
+            background: var(--primary-blue);
+            color: white;
+            padding: 12px 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .dashboard {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
             gap: 20px;
-            margin-bottom: 20px;
-            height: 180px;
+            padding: 15px 20px;
+            height: 160px;
         }
 
         .info-box {
-            background: white;
-            border: 3px solid #333;
-            padding: 10px;
+            background: var(--panel-bg);
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
             display: flex;
             flex-direction: column;
-        }
-
-        #log-area {
-            flex: 2;
+            overflow: hidden;
         }
 
         #logs {
-            flex-grow: 1;
-            overflow-y: auto;
-            background: #f9f9f9;
-            border: 1px solid #ccc;
-            font-family: monospace;
-            font-size: 12px;
-            padding: 5px;
-            margin-top: 5px;
-        }
-
-        #status-area {
             flex: 1;
+            overflow-y: auto;
+            padding: 8px;
+            font-family: 'Consolas', monospace;
+            font-size: 11px;
+            background: #2c3e50;
+            color: #ecf0f1;
         }
 
-        /* Сетка ячеек (два блока) */
-        .locker-wrapper {
-            display: flex;
-            justify-content: space-between;
+        /* СЕТКА ЯЧЕЕК */
+        .locker-area {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
             gap: 20px;
-            margin-bottom: 20px;
+            padding: 0 20px;
+            flex: 1;
+            margin-bottom: 75px; /* Отступ под кнопки */
         }
 
         .grid-container {
-            flex: 1;
             display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            grid-template-rows: repeat(3, 60px);
-            gap: 8px;
-            background: #fff;
-            border: 3px solid #333;
-            padding: 10px;
+            grid-template-columns: repeat(12, 1fr); /* 12 колонок для гибкости */
+            grid-template-rows: 70px 70px 95px 140px; /* Высота рядов */
+            gap: 10px;
+            background: #e2e8f0;
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            align-content: start;
         }
 
         .cell {
-            border: 2px solid #000;
+            background: white;
+            border: 1px solid #a0aec0;
+            border-radius: 4px;
             display: flex;
             align-items: center;
             justify-content: center;
             font-weight: bold;
-            font-size: 16px;
             cursor: pointer;
-            transition: transform 0.1s;
+            transition: 0.1s;
+            box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
         }
 
-            .cell:active {
-                transform: scale(0.95);
+            /* Настройка размеров (спаны) */
+            .cell.small {
+                grid-column: span 2;
+                font-size: 1rem;
+            }
+
+            .cell.medium {
+                grid-column: span 3;
+                font-size: 1.2rem;
+            }
+
+            .cell.large {
+                grid-column: span 6;
+                font-size: 1.6rem;
             }
 
             .cell.closed {
-                background-color: #ff4d4d; /* Красный */
-                color: white;
-                text-shadow: 1px 1px 1px black;
+                border-left: 6px solid var(--status-red);
+                color: #2d3748;
             }
 
             .cell.open {
-                background-color: #4dff4d; /* Зеленый */
-                color: black;
+                border-left: 6px solid var(--status-green);
+                color: var(--status-green);
+                background: #f0fff4;
             }
 
-        /* Нижняя панель управления */
-        .controls {
+            .cell:hover {
+                transform: scale(1.02);
+                z-index: 10;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            }
+
+        /* Футер и управление */
+        .footer-controls {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 70px;
             background: white;
-            border: 3px solid #333;
-            padding: 30px;
+            border-top: 1px solid var(--border-color);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -107,138 +146,131 @@
         }
 
         input {
-            padding: 12px;
-            font-size: 18px;
-            width: 250px;
-            border: 2px solid #333;
+            padding: 10px 15px;
+            width: 280px;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            font-size: 14px;
         }
 
         button {
-            padding: 12px 25px;
-            font-size: 16px;
+            padding: 10px 22px;
             font-weight: bold;
             cursor: pointer;
-            background: #333;
-            color: white;
             border: none;
             border-radius: 4px;
+            font-size: 13px;
+            text-transform: uppercase;
         }
 
-            button:hover {
-                background: #555;
-            }
+        .btn-pay {
+            background: #3498db;
+            color: white;
+        }
 
-            button:active {
-                background: #000;
-            }
+        .btn-refresh {
+            background: #95a5a6;
+            color: white;
+        }
+
+        .copyright {
+            position: absolute;
+            bottom: 10px;
+            left: 15px;
+            font-size: 11px;
+            color: #a0aec0;
+        }
     </style>
 </head>
 <body>
 
-    <div class="top-row">
-        <div id="log-area" class="info-box">
-            <strong>Логирование:</strong>
+    <header>
+        <div style="font-weight: bold; letter-spacing: 0.5px;">KSK POSTAMAT SYSTEM</div>
+        <div id="one-c-status">1С: ПОДКЛЮЧЕНО</div>
+    </header>
+
+    <div class="dashboard">
+        <div class="info-box">
             <div id="logs"></div>
         </div>
-        <div id="status-area" class="info-box">
-            <strong>Статус системы:</strong>
-            <p>Контроллер: <span id="ctrl-status" style="color: green; font-weight: bold;">OK</span></p>
-            <p>1С (Mock): <span id="one-c-status" style="color: blue; font-weight: bold;">Подключено</span></p>
-            <p style="font-size: 11px; color: #666;">* Нажмите на ячейку, чтобы открыть/закрыть вручную</p>
+        <div class="info-box" style="padding: 12px;">
+            <strong style="font-size: 12px; color: var(--primary-blue); margin-bottom: 8px;">СТАТУС ОБОРУДОВАНИЯ</strong>
+            <div style="font-size: 14px;">
+                <p style="margin: 5px 0;">Контроллер: <span style="color:var(--status-green); font-weight: bold;">ONLINE</span></p>
+                <p style="margin: 5px 0;">Занято ячеек: <span id="active-count" style="font-weight: bold;">0</span> / 36</p>
+            </div>
         </div>
     </div>
 
-    <div class="locker-wrapper">
-        <div id="grid-left" class="grid-container">
-            <!-- Ячейки 1-18 -->
-        </div>
-        <div id="grid-right" class="grid-container">
-            <!-- Ячейки 19-36 -->
-        </div>
+    <div class="locker-area">
+        <div id="grid-left" class="grid-container"></div>
+        <div id="grid-right" class="grid-container"></div>
     </div>
 
-    <div class="controls">
+    <div class="footer-controls">
         <input type="text" id="orderIdInput" placeholder="Введите номер заказа...">
-        <button onclick="processPayment()">Оплатить и открыть</button>
-        <button onclick="loadCells()" style="background: #777;">Обновить сетку</button>
+        <button class="btn-pay" onclick="processPayment()">Оплатить и открыть</button>
+        <button class="btn-refresh" onclick="loadCells()">Обновить</button>
     </div>
+
+    <div class="copyright">ЧТУП "Руд Буд" 2026</div>
 
     <script>
         const API_URL = "http://localhost:5018/api";
 
         function addLog(message) {
             const time = new Date().toLocaleTimeString();
-            $('#logs').prepend(`<div>[${time}] ${message}</div>`);
+            const logElement = $('#logs');
+            logElement.append(`<div>[${time}] ${message}</div>`);
+            logElement.scrollTop(logElement[0].scrollHeight);
         }
 
-        // Загрузка состояния ячеек
         function loadCells() {
             $.get(`${API_URL}/cells`, function (data) {
                 const left = $('#grid-left').empty();
                 const right = $('#grid-right').empty();
+                let closedCount = 0;
 
-                if (!data || data.length === 0) {
-                    addLog("Внимание: Список ячеек пуст!");
-                    return;
-                }
+                data.forEach((cell) => {
+                    if (cell.isClosed) closedCount++;
 
-                data.forEach(cell => {
+                    // Расчет позиции внутри своей стороны (1-18)
+                    const pos = (cell.cellId <= 18) ? cell.cellId : cell.cellId - 18;
+
+                    let sizeClass = "small"; // Ряды 1 и 2 (1-12)
+                    if (pos >= 13 && pos <= 16) sizeClass = "medium"; // Ряд 3
+                    if (pos >= 17 && pos <= 18) sizeClass = "large";  // Ряд 4 (низ)
+
                     const statusClass = cell.isClosed ? 'closed' : 'open';
-                    const cellHtml = `
-                            <div class="cell ${statusClass}" onclick="toggleCell(${cell.cellId}, ${cell.isClosed})">
-                                ${cell.cellId}
-                            </div>
-                        `;
+                    const cellHtml = `<div class="cell ${sizeClass} ${statusClass}" onclick="toggleCell(${cell.cellId}, ${cell.isClosed})">${cell.cellId}</div>`;
 
-                    // Распределяем по блокам как на схеме (18 слева, 18 справа)
-                    if (cell.cellId <= 18) {
-                        left.append(cellHtml);
-                    } else {
-                        right.append(cellHtml);
-                    }
+                    if (cell.cellId <= 18) left.append(cellHtml);
+                    else right.append(cellHtml);
                 });
-                addLog("Сетка ячеек обновлена");
-            }).fail(function () {
-                addLog("ОШИБКА: Сервер Backend недоступен!");
+                $('#active-count').text(closedCount);
+                addLog("Синхронизация данных...");
             });
         }
 
-        // Переключение статуса ячейки (Отладка)
         function toggleCell(id, currentIsClosed) {
             const action = currentIsClosed ? 'open' : 'close';
-            $.post(`${API_URL}/cells/${action}/${id}`, function () {
-                addLog(`Ручное управление: Ячейка ${id} -> ${action.toUpperCase()}`);
-                loadCells(); // Перерисовываем сетку
+            $.post(`${API_URL}/cells/${action}/${id}`, () => {
+                addLog(`Ручное управление: ячейка ${id}`);
+                loadCells();
             });
         }
 
-        // Логика оплаты
         function processPayment() {
-            const orderId = $('#orderIdInput').val();
-
-            if (!orderId) {
-                addLog("Ошибка: Введите номер заказа!");
-                return;
-            }
-
-            addLog(`Запрос оплаты для заказа: ${orderId}...`);
-
-            $.post(`${API_URL}/process-payment?orderId=${orderId}`, function (res) {
-                addLog(res.message);
-                loadCells(); // Обновляем, чтобы увидеть открытую ячейку
-                $('#orderIdInput').val(''); // Очищаем поле
-            }).fail(err => {
-                const msg = err.responseJSON ? err.responseJSON.message : "Заказ не найден";
-                addLog(`Ошибка: ${msg}`);
-            });
+            const id = $('#orderIdInput').val();
+            if (!id) return;
+            $.post(`${API_URL}/process-payment?orderId=${id}`, (res) => {
+                addLog(`УСПЕХ: Заказ ${id} выдан`);
+                loadCells();
+                $('#orderIdInput').val('');
+            }).fail(() => addLog(`ОШИБКА: Заказ ${id} не найден`));
         }
 
-        // Запуск при загрузке
-        $(document).ready(function () {
-            loadCells();
-            // Автообновление каждые 10 секунд
-            setInterval(loadCells, 10000);
-        });
+        $(document).ready(() => { loadCells(); setInterval(loadCells, 20000); });
     </script>
 </body>
 </html>

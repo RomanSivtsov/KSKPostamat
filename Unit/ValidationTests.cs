@@ -50,5 +50,25 @@ namespace Unit
             // Мы ожидаем ошибку в первом элементе списка Cells (индекс 0) для поля OrderId
             result.ShouldHaveValidationErrorFor("Cells[0].OrderId");
         }
+
+        [Fact]
+        public void Should_Have_Error_When_OrderId_Is_Duplicate_In_Different_Cells()
+        {
+            // Ситуация: Заказ 1001 ошибочно прописан в двух разных ячейках
+            var config = new PostamatConfig
+            {
+                Cells = new List<Cell>
+        {
+            new Cell { CellId = 1, OrderId = 1001, CellHasPackage = true },
+            new Cell { CellId = 2, OrderId = 1001, CellHasPackage = true }
+        }
+            };
+
+            var result = _validator.TestValidate(config);
+
+            // Если вы добавили правило уникальности OrderId в валидатор, тест это поймает
+            result.ShouldHaveValidationErrorFor(x => x.Cells)
+                  .WithErrorMessage("Один и тот же номер заказа найден в разных ячейках.");
+        }
     }
 }

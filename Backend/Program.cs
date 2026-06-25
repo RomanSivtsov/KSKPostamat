@@ -1,8 +1,21 @@
 using Backend.Services;
 using Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// НАСТРОЙКА ЛОГИРОВАНИЯ
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Debug() // Уровень детализации
+    .WriteTo.Console()    // Писать в черное окно консоли
+    .WriteTo.File("logs/postamat-.txt",
+        rollingInterval: RollingInterval.Day, // РОТАЦИЯ: новый файл каждый день
+        retainedFileCountLimit: 7)            // Хранить логи только за последние 7 дней
+    .CreateLogger();
+
+// Говорим приложению использовать Serilog вместо стандартного логгера
+builder.Host.UseSerilog();
 
 // 1. РЕГИСТРАЦИЯ СЕРВИСОВ (Dependency Injection)
 builder.Services.AddOpenApi();
@@ -62,6 +75,26 @@ app.MapPost("/api/cells/close/{id}", async (int id, ICellService cellService) =>
 {
     await cellService.CloseCellAsync(id);
     return Results.Ok();
+});
+
+app.MapPost("/api/pay", async (int orderId, IOrderService orders, ICellService cells, ILogger<Program> logger) =>
+{
+    logger.LogInformation("Попытка оплаты заказа №{OrderId}", orderId);
+
+    var paid = await orders.ProcessPaymentAsync(orderId);
+    if (!paid)
+    {
+        logger.LogWarning("Оплата заказа №{OrderId} не удалась (заказ не найден)", orderId);
+        return Results.BadRequest("Ошибка оплаты");
+    }
+
+    var order = await orders.GetOrderByIdAsync(orderId);
+    logger.LogInformation("Заказ №{OrderId} оплачен. Открываем ячейку №{CellId}", orderId, order.CellId);
+
+    await cells.OpenCellAsync(order.CellId);
+    logger.LogInformation("Ячейка №{CellId} открыта успешно", order.CellId);
+
+    return Results.Ok(new { message = "Оплачено, ячейка открыта" });
 });
 
 // Основной процесс: оплата и автоматическое открытие ячейки
