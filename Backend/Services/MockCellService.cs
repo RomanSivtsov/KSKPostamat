@@ -20,10 +20,9 @@ namespace Backend.Services
         {
             try
             {
-                // Пытаемся найти файл в папке Config (как в твоем проекте)
+                // попытка найти файл в папке Config 
                 string jsonPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "cells.json");
 
-                // Если там нет, проверяем корень (на всякий случай)
                 if (!File.Exists(jsonPath))
                 {
                     jsonPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "cells.json");
@@ -43,7 +42,7 @@ namespace Backend.Services
                 }
                 else
                 {
-                    // Если файл так и не найден, выводим в консоль бэкенда, где именно мы его искали
+                    // если файл так и не найден, то ошибка в консоль бэкэнда
                     Console.WriteLine("КРИТИЧЕСКАЯ ОШИБКА: Файл cells.json не найден!");
                     Console.WriteLine($"Путь поиска 1: {Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config", "cells.json")}");
                 }

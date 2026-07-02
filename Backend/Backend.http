@@ -14,3 +14,32 @@ Accept: application/json
 
 ### Оплатить заказ 1001 и открыть ячейку
 POST {{Backend_HostAddress}}/api/process-payment?orderId=1001
+
+### ЗАКРЫТЬ ячейку №7 
+POST {{Backend_HostAddress}}/api/cells/close/7
+Accept: application/json
+
+### Попытка получить несуществующий заказ (Негативный тест)
+
+GET {{Backend_HostAddress}}/api/order/9999
+Accept: application/json
+
+### Попытка оплатить несуществующий заказ (Негативный тест)
+POST {{Backend_HostAddress}}/api/process-payment?orderId=9999
+Accept: application/json
+
+### Проверка граничной ячейки (Последняя в списке)
+POST {{Backend_HostAddress}}/api/cells/open/36
+Accept: application/json
+
+### Попытка открыть ячейку с некорректным ID
+POST {{Backend_HostAddress}}/api/cells/open/-1
+Accept: application/json
+
+### Получить информацию о втором тестовом заказе
+GET {{Backend_HostAddress}}/api/order/1002
+Accept: application/json
+
+### Сценарий: Повторная проверка статуса после оплаты
+GET {{Backend_HostAddress}}/api/order/1001
+Accept: application/json

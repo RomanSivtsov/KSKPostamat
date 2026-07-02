@@ -36,6 +36,7 @@
             box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         }
 
+        /* ПАНЕЛИ СВЕРХУ */
         .dashboard {
             display: grid;
             grid-template-columns: 2fr 1fr;
@@ -53,6 +54,15 @@
             overflow: hidden;
         }
 
+        .box-header {
+            background: #eee;
+            padding: 4px 10px;
+            font-size: 11px;
+            font-weight: bold;
+            color: #555;
+            border-bottom: 1px solid var(--border-color);
+        }
+
         #logs {
             flex: 1;
             overflow-y: auto;
@@ -63,6 +73,21 @@
             color: #ecf0f1;
         }
 
+        /* ИНФО О ЗАКАЗЕ */
+        .order-details {
+            padding: 10px;
+            font-size: 13px;
+        }
+
+            .order-details p {
+                margin: 4px 0;
+                border-bottom: 1px solid #f0f0f0;
+            }
+
+            .order-details b {
+                color: var(--primary-blue);
+            }
+
         /* СЕТКА ЯЧЕЕК */
         .locker-area {
             display: grid;
@@ -70,19 +95,18 @@
             gap: 20px;
             padding: 0 20px;
             flex: 1;
-            margin-bottom: 75px; /* Отступ под кнопки */
+            margin-bottom: 85px;
         }
 
         .grid-container {
             display: grid;
-            grid-template-columns: repeat(12, 1fr); /* 12 колонок для гибкости */
-            grid-template-rows: 70px 70px 95px 140px; /* Высота рядов */
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: 70px 70px 95px 140px;
             gap: 10px;
             background: #e2e8f0;
             padding: 12px;
             border-radius: 8px;
             border: 1px solid var(--border-color);
-            align-content: start;
         }
 
         .cell {
@@ -95,23 +119,18 @@
             font-weight: bold;
             cursor: pointer;
             transition: 0.1s;
-            box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
         }
 
-            /* Настройка размеров (спаны) */
             .cell.small {
                 grid-column: span 2;
-                font-size: 1rem;
             }
 
             .cell.medium {
                 grid-column: span 3;
-                font-size: 1.2rem;
             }
 
             .cell.large {
                 grid-column: span 6;
-                font-size: 1.6rem;
             }
 
             .cell.closed {
@@ -127,16 +146,16 @@
 
             .cell:hover {
                 transform: scale(1.02);
-                z-index: 10;
+                z-index: 5;
                 box-shadow: 0 4px 10px rgba(0,0,0,0.1);
             }
 
-        /* Футер и управление */
+        /* НИЖНЯЯ ПАНЕЛЬ */
         .footer-controls {
             position: absolute;
             bottom: 0;
             width: 100%;
-            height: 70px;
+            height: 80px;
             background: white;
             border-top: 1px solid var(--border-color);
             display: flex;
@@ -146,31 +165,35 @@
         }
 
         input {
-            padding: 10px 15px;
-            width: 280px;
+            padding: 12px;
+            width: 250px;
             border: 1px solid var(--border-color);
             border-radius: 4px;
-            font-size: 14px;
+            font-size: 16px;
+            outline: none;
         }
 
         button {
-            padding: 10px 22px;
+            padding: 12px 25px;
             font-weight: bold;
             cursor: pointer;
             border: none;
             border-radius: 4px;
-            font-size: 13px;
             text-transform: uppercase;
         }
 
-        .btn-pay {
-            background: #3498db;
+        .btn-find {
+            background: var(--primary-blue);
             color: white;
         }
 
-        .btn-refresh {
-            background: #95a5a6;
+        .btn-pay {
+            background: var(--status-green);
             color: white;
+        }
+
+        button:active {
+            transform: scale(0.95);
         }
 
         .copyright {
@@ -186,18 +209,18 @@
 
     <header>
         <div style="font-weight: bold; letter-spacing: 0.5px;">KSK POSTAMAT SYSTEM</div>
-        <div id="one-c-status">1С: ПОДКЛЮЧЕНО</div>
+        <div id="one-c-status">КОНТРОЛЛЕР: <span style="color:#2ecc71">ONLINE</span></div>
     </header>
 
     <div class="dashboard">
         <div class="info-box">
+            <div class="box-header">ЖУРНАЛ СОБЫТИЙ</div>
             <div id="logs"></div>
         </div>
-        <div class="info-box" style="padding: 12px;">
-            <strong style="font-size: 12px; color: var(--primary-blue); margin-bottom: 8px;">СТАТУС ОБОРУДОВАНИЯ</strong>
-            <div style="font-size: 14px;">
-                <p style="margin: 5px 0;">Контроллер: <span style="color:var(--status-green); font-weight: bold;">ONLINE</span></p>
-                <p style="margin: 5px 0;">Занято ячеек: <span id="active-count" style="font-weight: bold;">0</span> / 36</p>
+        <div class="info-box">
+            <div class="box-header">ДАННЫЕ НАЙДЕННОГО ЗАКАЗА</div>
+            <div id="order-info-display" class="order-details">
+                <p style="color:#999; text-align:center; margin-top:15px;">Введите номер заказа и нажмите "Найти"</p>
             </div>
         </div>
     </div>
@@ -208,15 +231,16 @@
     </div>
 
     <div class="footer-controls">
-        <input type="text" id="orderIdInput" placeholder="Введите номер заказа...">
-        <button class="btn-pay" onclick="processPayment()">Оплатить и открыть</button>
-        <button class="btn-refresh" onclick="loadCells()">Обновить</button>
+        <input type="text" id="orderIdInput" placeholder="Номер заказа...">
+        <button class="btn-find" onclick="findOrder()">Найти заказ</button>
+        <button class="btn-pay" onclick="payOrder()">Оплатить заказ</button>
     </div>
 
     <div class="copyright">ЧТУП "Руд Буд" 2026</div>
 
     <script>
         const API_URL = "http://localhost:5018/api";
+        let currentOrder = null; // Здесь храним найденный заказ
 
         function addLog(message) {
             const time = new Date().toLocaleTimeString();
@@ -225,52 +249,93 @@
             logElement.scrollTop(logElement[0].scrollHeight);
         }
 
+        // 1. ЗАГРУЗКА ЯЧЕЕК (КЛИКИ ВОССТАНОВЛЕНЫ)
         function loadCells() {
             $.get(`${API_URL}/cells`, function (data) {
                 const left = $('#grid-left').empty();
                 const right = $('#grid-right').empty();
-                let closedCount = 0;
 
                 data.forEach((cell) => {
-                    if (cell.isClosed) closedCount++;
-
-                    // Расчет позиции внутри своей стороны (1-18)
                     const pos = (cell.cellId <= 18) ? cell.cellId : cell.cellId - 18;
 
-                    let sizeClass = "small"; // Ряды 1 и 2 (1-12)
-                    if (pos >= 13 && pos <= 16) sizeClass = "medium"; // Ряд 3
-                    if (pos >= 17 && pos <= 18) sizeClass = "large";  // Ряд 4 (низ)
+                    let sizeClass = "small";
+                    if (pos >= 13 && pos <= 16) sizeClass = "medium";
+                    if (pos >= 17 && pos <= 18) sizeClass = "large";
 
                     const statusClass = cell.isClosed ? 'closed' : 'open';
-                    const cellHtml = `<div class="cell ${sizeClass} ${statusClass}" onclick="toggleCell(${cell.cellId}, ${cell.isClosed})">${cell.cellId}</div>`;
+
+                    // ДОБАВЛЕН ONCLICK ДЛЯ РУЧНОГО УПРАВЛЕНИЯ
+                    const cellHtml = `
+                            <div class="cell ${sizeClass} ${statusClass}"
+                                 onclick="toggleCell(${cell.cellId}, ${cell.isClosed})">
+                                ${cell.cellId}
+                            </div>`;
 
                     if (cell.cellId <= 18) left.append(cellHtml);
                     else right.append(cellHtml);
                 });
-                $('#active-count').text(closedCount);
-                addLog("Синхронизация данных...");
             });
         }
 
-        function toggleCell(id, currentIsClosed) {
-            const action = currentIsClosed ? 'open' : 'close';
+        // 2. РУЧНОЕ ОТКРЫТИЕ/ЗАКРЫТИЕ ПО КЛИКУ
+        function toggleCell(id, isClosed) {
+            const action = isClosed ? 'open' : 'close';
             $.post(`${API_URL}/cells/${action}/${id}`, () => {
-                addLog(`Ручное управление: ячейка ${id}`);
+                addLog(`Ручное управление: ячейка ${id} ${isClosed ? 'ОТКРЫТА' : 'ЗАКРЫТА'}`);
                 loadCells();
             });
         }
 
-        function processPayment() {
+        // 3. ПОИСК ЗАКАЗА
+        function findOrder() {
             const id = $('#orderIdInput').val();
-            if (!id) return;
-            $.post(`${API_URL}/process-payment?orderId=${id}`, (res) => {
-                addLog(`УСПЕХ: Заказ ${id} выдан`);
-                loadCells();
-                $('#orderIdInput').val('');
-            }).fail(() => addLog(`ОШИБКА: Заказ ${id} не найден`));
+            if (!id) {
+                addLog("ПРЕДУПРЕЖДЕНИЕ: Введите номер заказа");
+                return;
+            }
+
+            $.get(`${API_URL}/order/${id}`, function (order) {
+                currentOrder = order;
+                addLog(`Заказ ${id} найден. Можно переходить к оплате.`);
+
+                $('#order-info-display').html(`
+                        <p>ID Заказа: <b>${order.orderId}</b></p>
+                        <p>Сумма: <b style="color:#e67e22; font-size:15px;">${order.amount} BYN</b></p>
+                        <p>Ячейка: <b>№ ${order.cellId}</b></p>
+                        <p>Статус: <b>${order.isPaid ? 'Оплачен' : 'Ожидает оплаты'}</b></p>
+                    `);
+            }).fail(() => {
+                currentOrder = null;
+                $('#order-info-display').html('<p style="color:red; text-align:center; margin-top:15px;">Заказ не найден!</p>');
+                addLog(`ОШИБКА: Заказ ${id} не найден в базе 1С`);
+            });
         }
 
-        $(document).ready(() => { loadCells(); setInterval(loadCells, 20000); });
+        // 4. ОПЛАТА ЗАКАЗА (С ПРОВЕРКОЙ)
+        function payOrder() {
+            if (!currentOrder) {
+                alert("Ошибка: Сначала найдите заказ в системе!");
+                addLog("ОШИБКА: Попытка оплаты без предварительного поиска");
+                return;
+            }
+
+            addLog(`Инициация платежа для заказа ${currentOrder.orderId}...`);
+
+            $.post(`${API_URL}/process-payment?orderId=${currentOrder.orderId}`, (res) => {
+                addLog(`УСПЕХ: ${res.message}`);
+                currentOrder = null; // Сброс
+                $('#orderIdInput').val('');
+                $('#order-info-display').html('<p style="color:green; text-align:center; margin-top:15px;">Оплата прошла успешно!</p>');
+                loadCells();
+            }).fail(() => {
+                addLog("ОШИБКА: Оплата отклонена сервером");
+            });
+        }
+
+        $(document).ready(() => {
+            loadCells();
+            setInterval(loadCells, 15000);
+        });
     </script>
 </body>
 </html>

@@ -1,0 +1,746 @@
+2026-06-30 00:00:04.112 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:00:04.116 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:00:04.117 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:00:04.118 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:00:04.118 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:00:04.119 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:00:04.120 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:00:04.120 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:00:04.121 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:00:04.122 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:00:04.123 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 10.9716ms
+2026-06-30 00:00:24.107 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:00:24.110 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:00:24.111 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:00:24.112 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:00:24.112 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:00:24.113 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:00:24.113 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:00:24.114 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:00:24.115 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:00:24.116 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:00:24.117 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 9.7406ms
+2026-06-30 00:00:44.116 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:00:44.118 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:00:44.119 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:00:44.120 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:00:44.121 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:00:44.121 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:00:44.122 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:00:44.123 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:00:44.124 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:00:44.125 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:00:44.126 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 9.7333ms
+2026-06-30 00:01:04.117 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:01:04.120 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:01:04.121 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:01:04.122 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:01:04.122 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:01:04.123 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:01:04.124 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:01:04.125 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:01:04.125 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:01:04.126 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:01:04.127 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 10.5227ms
+2026-06-30 00:01:24.116 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:01:24.118 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:01:24.119 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:01:24.120 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:01:24.121 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:01:24.122 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:01:24.122 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:01:24.123 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:01:24.124 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:01:24.125 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:01:24.125 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 9.5615ms
+2026-06-30 00:01:44.112 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:01:44.114 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:01:44.115 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:01:44.115 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:01:44.116 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:01:44.117 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:01:44.117 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:01:44.118 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:01:44.119 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:01:44.119 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:01:44.120 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 8.3559ms
+2026-06-30 00:02:04.113 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:02:04.115 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:02:04.116 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:02:04.117 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:02:04.117 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:02:04.118 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:02:04.119 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:02:04.119 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:02:04.120 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:02:04.121 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:02:04.122 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 8.8927ms
+2026-06-30 00:02:24.105 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:02:24.108 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:02:24.109 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:02:24.109 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:02:24.110 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:02:24.111 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:02:24.111 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:02:24.112 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:02:24.113 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:02:24.114 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:02:24.115 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 9.6924ms
+2026-06-30 00:02:44.114 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:02:44.116 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:02:44.117 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:02:44.118 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:02:44.118 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:02:44.119 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:02:44.120 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:02:44.120 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:02:44.121 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:02:44.122 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:02:44.123 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 9.055ms
+2026-06-30 00:03:04.108 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:03:04.110 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:03:04.111 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:03:04.111 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:03:04.112 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:03:04.113 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:03:04.113 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:03:04.114 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:03:04.115 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:03:04.115 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:03:04.116 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 8.5227ms
+2026-06-30 00:03:24.106 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:03:24.108 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:03:24.109 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:03:24.110 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:03:24.111 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:03:24.112 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:03:24.112 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:03:24.113 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:03:24.114 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:03:24.115 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:03:24.115 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 9.1949ms
+2026-06-30 00:03:44.113 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:03:44.115 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:03:44.116 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:03:44.116 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:03:44.117 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:03:44.118 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:03:44.118 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:03:44.119 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:03:44.120 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:03:44.120 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:03:44.121 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 8.4583ms
+2026-06-30 00:04:04.120 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:04:04.122 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:04:04.124 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:04:04.125 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:04:04.125 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:04:04.126 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:04:04.127 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:04:04.127 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:04:04.128 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:04:04.129 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:04:04.130 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 10.8279ms
+2026-06-30 00:04:24.117 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:04:24.119 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:04:24.121 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:04:24.122 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:04:24.122 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:04:24.123 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:04:24.124 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:04:24.124 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:04:24.125 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:04:24.126 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:04:24.127 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 9.9515ms
+2026-06-30 00:04:44.108 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:04:44.110 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:04:44.111 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:04:44.112 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:04:44.112 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:04:44.113 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:04:44.114 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:04:44.114 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:04:44.115 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:04:44.116 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:04:44.117 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 8.4377ms
+2026-06-30 00:05:04.108 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:05:04.110 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:05:04.110 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:05:04.111 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:05:04.112 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:05:04.112 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:05:04.113 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:05:04.114 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:05:04.114 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:05:04.115 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:05:04.116 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 8.583ms
+2026-06-30 00:05:24.184 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:05:24.186 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:05:24.187 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:05:24.187 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:05:24.188 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:05:24.189 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:05:24.189 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:05:24.190 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:05:24.191 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:05:24.217 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:05:24.218 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 64.9401ms
+2026-06-30 00:05:44.108 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:05:44.111 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:05:44.112 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:05:44.113 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:05:44.113 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:05:44.114 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:05:44.114 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:05:44.115 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:05:44.116 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:05:44.117 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:05:44.118 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 9.9768ms
+2026-06-30 00:06:04.108 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:06:04.115 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:06:04.116 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:06:04.117 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:06:04.117 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:06:04.118 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:06:04.119 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:06:04.120 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:06:04.120 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:06:04.121 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:06:04.122 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 14.0531ms
+2026-06-30 00:06:24.107 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:06:24.109 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:06:24.110 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:06:24.111 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:06:24.111 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:06:24.112 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:06:24.113 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:06:24.113 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:06:24.114 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:06:24.117 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:06:24.118 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 11.3017ms
+2026-06-30 00:06:44.118 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:06:44.122 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:06:44.123 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:06:44.124 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:06:44.125 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:06:44.125 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:06:44.126 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:06:44.127 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:06:44.128 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:06:44.129 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:06:44.129 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 11.1861ms
+2026-06-30 00:07:04.104 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:07:04.107 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:07:04.108 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:07:04.108 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:07:04.109 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:07:04.109 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:07:04.110 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:07:04.111 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:07:04.111 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:07:04.112 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:07:04.113 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 8.7116ms
+2026-06-30 00:07:24.116 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:07:24.124 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:07:24.124 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:07:24.125 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:07:24.126 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:07:24.127 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:07:24.128 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:07:24.128 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:07:24.129 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:07:24.135 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:07:24.136 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 20.0285ms
+2026-06-30 00:07:44.118 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:07:44.121 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:07:44.122 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:07:44.123 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:07:44.124 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:07:44.125 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:07:44.126 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:07:44.127 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:07:44.128 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:07:44.128 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:07:44.129 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 11.5618ms
+2026-06-30 00:08:04.108 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:08:04.111 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:08:04.112 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:08:04.113 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:08:04.113 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:08:04.114 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:08:04.115 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:08:04.115 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:08:04.116 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:08:04.117 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:08:04.118 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 9.9399ms
+2026-06-30 00:08:24.108 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:08:24.110 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:08:24.111 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:08:24.112 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:08:24.113 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:08:24.113 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:08:24.114 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:08:24.114 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:08:24.115 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:08:24.116 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:08:24.117 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 8.9643ms
+2026-06-30 00:08:44.121 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:08:44.127 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:08:44.128 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:08:44.128 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:08:44.129 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:08:44.130 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:08:44.130 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:08:44.131 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:08:44.132 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:08:44.138 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:08:44.139 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 18.3013ms
+2026-06-30 00:09:04.106 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:09:04.109 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:09:04.110 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:09:04.111 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:09:04.111 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:09:04.112 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:09:04.113 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:09:04.114 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:09:04.115 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:09:04.116 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:09:04.116 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 10.3393ms
+2026-06-30 00:09:24.109 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:09:24.111 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:09:24.111 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:09:24.112 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:09:24.113 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:09:24.113 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:09:24.114 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:09:24.115 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:09:24.115 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:09:24.116 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:09:24.117 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 8.1812ms
+2026-06-30 00:09:44.107 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:09:44.109 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:09:44.109 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:09:44.110 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:09:44.111 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:09:44.111 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:09:44.112 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:09:44.113 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:09:44.113 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:09:44.114 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:09:44.115 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 8.3772ms
+2026-06-30 00:10:04.122 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:10:04.128 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:10:04.129 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:10:04.129 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:10:04.130 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:10:04.131 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:10:04.131 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:10:04.132 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:10:04.133 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:10:04.139 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:10:04.140 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 18.2078ms
+2026-06-30 00:10:24.118 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:10:24.122 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:10:24.123 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:10:24.124 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:10:24.124 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:10:24.125 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:10:24.126 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:10:24.127 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:10:24.128 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:10:24.129 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:10:24.130 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 11.4732ms
+2026-06-30 00:10:44.115 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:10:44.118 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:10:44.120 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:10:44.121 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:10:44.121 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:10:44.122 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:10:44.123 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:10:44.124 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:10:44.125 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:10:44.126 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:10:44.127 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 12.5407ms
+2026-06-30 00:11:04.112 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:11:04.114 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:11:04.115 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:11:04.116 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:11:04.117 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:11:04.117 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:11:04.118 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:11:04.119 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:11:04.119 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:11:04.120 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:11:04.121 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 9.5634ms
+2026-06-30 00:11:24.109 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:11:24.111 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:11:24.111 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:11:24.112 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:11:24.113 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:11:24.113 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:11:24.114 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:11:24.115 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:11:24.115 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:11:24.116 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:11:24.117 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 7.9845ms
+2026-06-30 00:11:44.104 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:11:44.107 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:11:44.108 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:11:44.108 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:11:44.109 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:11:44.110 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:11:44.110 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:11:44.111 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:11:44.112 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:11:44.113 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:11:44.113 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 9.0123ms
+2026-06-30 00:12:04.112 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:12:04.115 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:12:04.116 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:12:04.116 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:12:04.117 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:12:04.118 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:12:04.119 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:12:04.119 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:12:04.120 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:12:04.126 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:12:04.127 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 14.4875ms
+2026-06-30 00:12:24.116 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:12:24.119 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:12:24.120 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:12:24.121 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:12:24.121 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:12:24.122 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:12:24.123 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:12:24.123 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:12:24.124 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:12:24.125 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:12:24.126 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 9.4707ms
+2026-06-30 00:12:44.104 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:12:44.106 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:12:44.107 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:12:44.107 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:12:44.108 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:12:44.109 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:12:44.109 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:12:44.110 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:12:44.111 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:12:44.111 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:12:44.113 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 8.3739ms
+2026-06-30 00:13:04.146 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:13:04.153 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:13:04.153 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:13:04.154 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:13:04.155 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:13:04.155 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:13:04.156 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:13:04.157 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:13:04.157 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:13:04.163 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:13:04.164 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 17.4155ms
+2026-06-30 00:13:24.119 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:13:24.122 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:13:24.123 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:13:24.124 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:13:24.124 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:13:24.125 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:13:24.126 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:13:24.126 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:13:24.127 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:13:24.128 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:13:24.128 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 8.9331ms
+2026-06-30 00:13:44.118 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:13:44.121 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:13:44.122 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:13:44.123 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:13:44.123 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:13:44.124 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:13:44.125 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:13:44.125 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:13:44.126 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:13:44.127 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:13:44.128 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 9.7856ms
+2026-06-30 00:14:04.118 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:14:04.121 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:14:04.122 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:14:04.123 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:14:04.124 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:14:04.124 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:14:04.125 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:14:04.126 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:14:04.126 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:14:04.127 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:14:04.128 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 9.9387ms
+2026-06-30 00:14:24.108 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:14:24.110 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:14:24.111 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:14:24.112 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:14:24.112 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:14:24.113 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:14:24.114 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:14:24.115 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:14:24.116 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:14:24.117 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:14:24.118 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 9.6208ms
+2026-06-30 00:14:27.704 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5018/api/cells/open/16 - null 0
+2026-06-30 00:14:27.707 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells/open/16'
+2026-06-30 00:14:27.708 +03:00 [DBG] Endpoint 'HTTP: POST /api/cells/open/{id}' with route pattern '/api/cells/open/{id}' is valid for the request path '/api/cells/open/16'
+2026-06-30 00:14:27.710 +03:00 [DBG] Request matched endpoint 'HTTP: POST /api/cells/open/{id}'
+2026-06-30 00:14:27.710 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:14:27.711 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:14:27.712 +03:00 [INF] Executing endpoint 'HTTP: POST /api/cells/open/{id}'
+2026-06-30 00:14:27.714 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:14:27.716 +03:00 [INF] Writing value of type 'String' as Json.
+2026-06-30 00:14:27.717 +03:00 [INF] Executed endpoint 'HTTP: POST /api/cells/open/{id}'
+2026-06-30 00:14:27.718 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:14:27.719 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5018/api/cells/open/16 - 200 null application/json; charset=utf-8 14.3479ms
+2026-06-30 00:14:27.721 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:14:27.724 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:14:27.725 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:14:27.725 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:14:27.726 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:14:27.727 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:14:27.728 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:14:27.728 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:14:27.729 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:14:27.730 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:14:27.731 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 9.6475ms
+2026-06-30 00:14:28.630 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5018/api/cells/close/16 - null 0
+2026-06-30 00:14:28.632 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells/close/16'
+2026-06-30 00:14:28.633 +03:00 [DBG] Endpoint 'HTTP: POST /api/cells/close/{id}' with route pattern '/api/cells/close/{id}' is valid for the request path '/api/cells/close/16'
+2026-06-30 00:14:28.635 +03:00 [DBG] Request matched endpoint 'HTTP: POST /api/cells/close/{id}'
+2026-06-30 00:14:28.635 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:14:28.636 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:14:28.637 +03:00 [INF] Executing endpoint 'HTTP: POST /api/cells/close/{id}'
+2026-06-30 00:14:28.639 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:14:28.640 +03:00 [INF] Executed endpoint 'HTTP: POST /api/cells/close/{id}'
+2026-06-30 00:14:28.641 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:14:28.642 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5018/api/cells/close/16 - 200 0 null 11.8512ms
+2026-06-30 00:14:28.645 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:14:28.646 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:14:28.647 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:14:28.648 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:14:28.649 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:14:28.649 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:14:28.650 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:14:28.651 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:14:28.652 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:14:28.652 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:14:28.653 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 8.6428ms
+2026-06-30 00:14:29.046 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5018/api/cells/open/18 - null 0
+2026-06-30 00:14:29.048 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells/open/18'
+2026-06-30 00:14:29.049 +03:00 [DBG] Endpoint 'HTTP: POST /api/cells/open/{id}' with route pattern '/api/cells/open/{id}' is valid for the request path '/api/cells/open/18'
+2026-06-30 00:14:29.050 +03:00 [DBG] Request matched endpoint 'HTTP: POST /api/cells/open/{id}'
+2026-06-30 00:14:29.051 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:14:29.052 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:14:29.052 +03:00 [INF] Executing endpoint 'HTTP: POST /api/cells/open/{id}'
+2026-06-30 00:14:29.053 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:14:29.054 +03:00 [INF] Writing value of type 'String' as Json.
+2026-06-30 00:14:29.055 +03:00 [INF] Executed endpoint 'HTTP: POST /api/cells/open/{id}'
+2026-06-30 00:14:29.055 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:14:29.056 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5018/api/cells/open/18 - 200 null application/json; charset=utf-8 9.9521ms
+2026-06-30 00:14:29.059 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:14:29.061 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:14:29.061 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:14:29.062 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:14:29.063 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:14:29.063 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:14:29.064 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:14:29.065 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:14:29.066 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:14:29.067 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:14:29.068 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 8.7933ms
+2026-06-30 00:14:29.486 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5018/api/cells/close/18 - null 0
+2026-06-30 00:14:29.489 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells/close/18'
+2026-06-30 00:14:29.490 +03:00 [DBG] Endpoint 'HTTP: POST /api/cells/close/{id}' with route pattern '/api/cells/close/{id}' is valid for the request path '/api/cells/close/18'
+2026-06-30 00:14:29.491 +03:00 [DBG] Request matched endpoint 'HTTP: POST /api/cells/close/{id}'
+2026-06-30 00:14:29.491 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:14:29.492 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:14:29.492 +03:00 [INF] Executing endpoint 'HTTP: POST /api/cells/close/{id}'
+2026-06-30 00:14:29.493 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:14:29.494 +03:00 [INF] Executed endpoint 'HTTP: POST /api/cells/close/{id}'
+2026-06-30 00:14:29.495 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:14:29.496 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5018/api/cells/close/18 - 200 0 null 9.501ms
+2026-06-30 00:14:29.498 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 00:14:29.500 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 00:14:29.501 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:14:29.502 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 00:14:29.503 +03:00 [INF] CORS policy execution successful.
+2026-06-30 00:14:29.503 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:14:29.504 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 00:14:29.505 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 00:14:29.506 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 00:14:29.507 +03:00 [DBG] Connection id "0HNMM435FN91V" completed keep alive response.
+2026-06-30 00:14:29.507 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 9.1638ms
+2026-06-30 00:14:32.171 +03:00 [DBG] Connection id "0HNMM435FN91V" received FIN.
+2026-06-30 00:14:32.183 +03:00 [DBG] Connection id "0HNMM435FN91V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-30 00:14:32.186 +03:00 [DBG] Connection id "0HNMM435FN91V" disconnecting.
+2026-06-30 00:14:32.188 +03:00 [DBG] Connection id "0HNMM435FN91V" stopped.
+2026-06-30 01:04:49.992 +03:00 [DBG] Hosting starting
+2026-06-30 01:04:50.098 +03:00 [DBG] Middleware loaded
+2026-06-30 01:04:50.110 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16499 B).
+2026-06-30 01:04:50.114 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2026-06-30 01:04:50.232 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2026-06-30 01:04:50.238 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2026-06-30 01:04:50.252 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2026-06-30 01:04:50.377 +03:00 [INF] Now listening on: https://localhost:7144
+2026-06-30 01:04:50.378 +03:00 [INF] Now listening on: http://localhost:5018
+2026-06-30 01:04:50.379 +03:00 [DBG] Loaded hosting startup assembly Backend
+2026-06-30 01:04:50.380 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2026-06-30 01:04:50.381 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2026-06-30 01:04:50.381 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2026-06-30 01:04:50.388 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2026-06-30 01:04:50.392 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2026-06-30 01:04:50.504 +03:00 [DBG] Connection id "0HNMM59OF2VFN" accepted.
+2026-06-30 01:04:50.506 +03:00 [DBG] Connection id "0HNMM59OF2VFN" started.
+2026-06-30 01:04:50.555 +03:00 [DBG] Connection id "0HNMM59OF2VFO" accepted.
+2026-06-30 01:04:50.556 +03:00 [DBG] Connection id "0HNMM59OF2VFO" started.
+2026-06-30 01:04:50.565 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 01:04:50.579 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-30 01:04:50.580 +03:00 [INF] Hosting environment: Development
+2026-06-30 01:04:50.581 +03:00 [INF] Content root path: E:\Univer\KSKPostamat\Backend
+2026-06-30 01:04:50.582 +03:00 [DBG] Hosting started
+2026-06-30 01:04:50.619 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 01:04:50.621 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 01:04:50.626 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 01:04:50.628 +03:00 [INF] CORS policy execution successful.
+2026-06-30 01:04:50.637 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 01:04:50.675 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 01:04:50.677 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 01:04:50.689 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 01:04:50.691 +03:00 [DBG] Connection id "0HNMM59OF2VFN" completed keep alive response.
+2026-06-30 01:04:50.695 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 138.9898ms
+2026-06-30 01:04:51.678 +03:00 [DBG] Connection id "0HNMM59OF2VFO" received FIN.
+2026-06-30 01:04:51.678 +03:00 [DBG] Connection id "0HNMM59OF2VFN" received FIN.
+2026-06-30 01:04:51.689 +03:00 [DBG] Connection id "0HNMM59OF2VFO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-30 01:04:51.689 +03:00 [DBG] Connection id "0HNMM59OF2VFN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2026-06-30 01:04:51.691 +03:00 [DBG] Connection id "0HNMM59OF2VFO" disconnecting.
+2026-06-30 01:04:51.692 +03:00 [DBG] Connection id "0HNMM59OF2VFN" disconnecting.
+2026-06-30 01:04:51.700 +03:00 [DBG] Connection id "0HNMM59OF2VFO" stopped.
+2026-06-30 01:04:51.702 +03:00 [DBG] Connection id "0HNMM59OF2VFN" stopped.
+2026-06-30 01:04:56.113 +03:00 [DBG] Connection id "0HNMM59OF2VFP" accepted.
+2026-06-30 01:04:56.114 +03:00 [DBG] Connection id "0HNMM59OF2VFP" started.
+2026-06-30 01:04:56.116 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5018/api/cells/open/11 - null 0
+2026-06-30 01:04:56.119 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells/open/11'
+2026-06-30 01:04:56.121 +03:00 [DBG] Endpoint 'HTTP: POST /api/cells/open/{id}' with route pattern '/api/cells/open/{id}' is valid for the request path '/api/cells/open/11'
+2026-06-30 01:04:56.122 +03:00 [DBG] Request matched endpoint 'HTTP: POST /api/cells/open/{id}'
+2026-06-30 01:04:56.124 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 01:04:56.125 +03:00 [INF] CORS policy execution successful.
+2026-06-30 01:04:56.125 +03:00 [INF] Executing endpoint 'HTTP: POST /api/cells/open/{id}'
+2026-06-30 01:04:56.127 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 01:04:56.129 +03:00 [INF] Writing value of type 'String' as Json.
+2026-06-30 01:04:56.131 +03:00 [INF] Executed endpoint 'HTTP: POST /api/cells/open/{id}'
+2026-06-30 01:04:56.132 +03:00 [DBG] Connection id "0HNMM59OF2VFP" completed keep alive response.
+2026-06-30 01:04:56.133 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5018/api/cells/open/11 - 200 null application/json; charset=utf-8 17.4396ms
+2026-06-30 01:04:56.136 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 01:04:56.138 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 01:04:56.139 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 01:04:56.140 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 01:04:56.141 +03:00 [INF] CORS policy execution successful.
+2026-06-30 01:04:56.142 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 01:04:56.143 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 01:04:56.144 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 01:04:56.145 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 01:04:56.146 +03:00 [DBG] Connection id "0HNMM59OF2VFP" completed keep alive response.
+2026-06-30 01:04:56.147 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 10.9418ms
+2026-06-30 01:04:56.799 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5018/api/cells/open/35 - null 0
+2026-06-30 01:04:56.802 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells/open/35'
+2026-06-30 01:04:56.803 +03:00 [DBG] Endpoint 'HTTP: POST /api/cells/open/{id}' with route pattern '/api/cells/open/{id}' is valid for the request path '/api/cells/open/35'
+2026-06-30 01:04:56.805 +03:00 [DBG] Request matched endpoint 'HTTP: POST /api/cells/open/{id}'
+2026-06-30 01:04:56.806 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 01:04:56.807 +03:00 [INF] CORS policy execution successful.
+2026-06-30 01:04:56.807 +03:00 [INF] Executing endpoint 'HTTP: POST /api/cells/open/{id}'
+2026-06-30 01:04:56.808 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 01:04:56.809 +03:00 [INF] Writing value of type 'String' as Json.
+2026-06-30 01:04:56.810 +03:00 [INF] Executed endpoint 'HTTP: POST /api/cells/open/{id}'
+2026-06-30 01:04:56.811 +03:00 [DBG] Connection id "0HNMM59OF2VFP" completed keep alive response.
+2026-06-30 01:04:56.812 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5018/api/cells/open/35 - 200 null application/json; charset=utf-8 13.0203ms
+2026-06-30 01:04:56.815 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 01:04:56.817 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 01:04:56.818 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 01:04:56.819 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 01:04:56.820 +03:00 [INF] CORS policy execution successful.
+2026-06-30 01:04:56.820 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 01:04:56.821 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 01:04:56.822 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 01:04:56.823 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 01:04:56.824 +03:00 [DBG] Connection id "0HNMM59OF2VFP" completed keep alive response.
+2026-06-30 01:04:56.825 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 9.867ms
+2026-06-30 01:04:58.048 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5018/api/cells/open/34 - null 0
+2026-06-30 01:04:58.050 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells/open/34'
+2026-06-30 01:04:58.051 +03:00 [DBG] Endpoint 'HTTP: POST /api/cells/open/{id}' with route pattern '/api/cells/open/{id}' is valid for the request path '/api/cells/open/34'
+2026-06-30 01:04:58.053 +03:00 [DBG] Request matched endpoint 'HTTP: POST /api/cells/open/{id}'
+2026-06-30 01:04:58.054 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 01:04:58.054 +03:00 [INF] CORS policy execution successful.
+2026-06-30 01:04:58.055 +03:00 [INF] Executing endpoint 'HTTP: POST /api/cells/open/{id}'
+2026-06-30 01:04:58.056 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 01:04:58.057 +03:00 [INF] Writing value of type 'String' as Json.
+2026-06-30 01:04:58.057 +03:00 [INF] Executed endpoint 'HTTP: POST /api/cells/open/{id}'
+2026-06-30 01:04:58.058 +03:00 [DBG] Connection id "0HNMM59OF2VFP" completed keep alive response.
+2026-06-30 01:04:58.059 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5018/api/cells/open/34 - 200 null application/json; charset=utf-8 11.5069ms
+2026-06-30 01:04:58.062 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 01:04:58.064 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 01:04:58.065 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 01:04:58.066 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 01:04:58.067 +03:00 [INF] CORS policy execution successful.
+2026-06-30 01:04:58.074 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 01:04:58.075 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 01:04:58.075 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 01:04:58.076 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 01:04:58.077 +03:00 [DBG] Connection id "0HNMM59OF2VFP" completed keep alive response.
+2026-06-30 01:04:58.078 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 15.8403ms
+2026-06-30 01:05:03.072 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5018/api/cells/close/7 - null 0
+2026-06-30 01:05:03.074 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells/close/7'
+2026-06-30 01:05:03.075 +03:00 [DBG] Endpoint 'HTTP: POST /api/cells/close/{id}' with route pattern '/api/cells/close/{id}' is valid for the request path '/api/cells/close/7'
+2026-06-30 01:05:03.076 +03:00 [DBG] Request matched endpoint 'HTTP: POST /api/cells/close/{id}'
+2026-06-30 01:05:03.076 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 01:05:03.077 +03:00 [INF] CORS policy execution successful.
+2026-06-30 01:05:03.078 +03:00 [INF] Executing endpoint 'HTTP: POST /api/cells/close/{id}'
+2026-06-30 01:05:03.080 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 01:05:03.081 +03:00 [INF] Executed endpoint 'HTTP: POST /api/cells/close/{id}'
+2026-06-30 01:05:03.082 +03:00 [DBG] Connection id "0HNMM59OF2VFP" completed keep alive response.
+2026-06-30 01:05:03.083 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5018/api/cells/close/7 - 200 0 null 11.4251ms
+2026-06-30 01:05:03.085 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 01:05:03.087 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 01:05:03.088 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 01:05:03.089 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 01:05:03.090 +03:00 [INF] CORS policy execution successful.
+2026-06-30 01:05:03.091 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 01:05:03.091 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 01:05:03.092 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 01:05:03.093 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 01:05:03.094 +03:00 [DBG] Connection id "0HNMM59OF2VFP" completed keep alive response.
+2026-06-30 01:05:03.095 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 9.4881ms
+2026-06-30 01:05:05.952 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5018/api/process-payment?orderId=1001 - null 0
+2026-06-30 01:05:05.954 +03:00 [DBG] 1 candidate(s) found for the request path '/api/process-payment'
+2026-06-30 01:05:05.955 +03:00 [DBG] Request matched endpoint 'HTTP: POST /api/process-payment'
+2026-06-30 01:05:05.956 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 01:05:05.957 +03:00 [INF] CORS policy execution successful.
+2026-06-30 01:05:05.957 +03:00 [INF] Executing endpoint 'HTTP: POST /api/process-payment'
+2026-06-30 01:05:05.992 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 01:05:05.995 +03:00 [INF] Writing value of type '<>f__AnonymousType1`2' as Json.
+2026-06-30 01:05:05.997 +03:00 [INF] Executed endpoint 'HTTP: POST /api/process-payment'
+2026-06-30 01:05:05.998 +03:00 [DBG] Connection id "0HNMM59OF2VFP" completed keep alive response.
+2026-06-30 01:05:06.000 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5018/api/process-payment?orderId=1001 - 200 null application/json; charset=utf-8 47.5254ms
+2026-06-30 01:05:06.003 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 01:05:06.005 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 01:05:06.006 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 01:05:06.007 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 01:05:06.008 +03:00 [INF] CORS policy execution successful.
+2026-06-30 01:05:06.008 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 01:05:06.009 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 01:05:06.010 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 01:05:06.011 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 01:05:06.012 +03:00 [DBG] Connection id "0HNMM59OF2VFP" completed keep alive response.
+2026-06-30 01:05:06.013 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 10.2634ms
+2026-06-30 01:05:09.736 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5018/api/cells - null null
+2026-06-30 01:05:09.737 +03:00 [DBG] 1 candidate(s) found for the request path '/api/cells'
+2026-06-30 01:05:09.738 +03:00 [DBG] Request matched endpoint 'HTTP: GET /api/cells'
+2026-06-30 01:05:09.739 +03:00 [DBG] The request has an origin header: 'null'.
+2026-06-30 01:05:09.740 +03:00 [INF] CORS policy execution successful.
+2026-06-30 01:05:09.741 +03:00 [INF] Executing endpoint 'HTTP: GET /api/cells'
+2026-06-30 01:05:09.742 +03:00 [INF] Setting HTTP status code 200.
+2026-06-30 01:05:09.743 +03:00 [INF] Writing value of type 'List`1' as Json.
+2026-06-30 01:05:09.744 +03:00 [INF] Executed endpoint 'HTTP: GET /api/cells'
+2026-06-30 01:05:09.746 +03:00 [DBG] Connection id "0HNMM59OF2VFP" completed keep alive response.
+2026-06-30 01:05:09.747 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5018/api/cells - 200 null application/json; charset=utf-8 11.3624ms

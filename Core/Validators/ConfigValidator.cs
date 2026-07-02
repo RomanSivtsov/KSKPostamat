@@ -30,27 +30,27 @@ namespace Core.Validators
     {
         public PostamatConfigValidator()
         {
-            // ... ваши прошлые правила (RuleForEach и уникальность CellId) ...
+            
             RuleForEach(x => x.Cells).SetValidator(new CellValidator());
 
             RuleFor(x => x.Cells)
                 .Must(HaveUniqueIds)
                 .WithMessage("Обнаружены дубликаты ID ячеек в конфигурации.");
 
-            // ДОБАВЬТЕ ЭТО ПРАВИЛО:
+            
             RuleFor(x => x.Cells)
                 .Must(HaveUniqueOrderIds)
                 .WithMessage("Один и тот же номер заказа найден в разных ячейках.");
         }
 
-        // Метод для проверки уникальности CellId (у вас он уже должен быть)
+        // Метод для проверки уникальности CellId
         private bool HaveUniqueIds(List<Cell> cells) =>
             cells.Select(c => c.CellId).Distinct().Count() == cells.Count;
 
-        // НОВЫЙ МЕТОД: Проверка уникальности OrderId
+        // Проверка уникальности OrderId
         private bool HaveUniqueOrderIds(List<Cell> cells)
         {
-            // Собираем все OrderId, которые НЕ null
+            // все OrderId, которые НЕ null
             var activeOrders = cells
                 .Where(c => c.OrderId != null)
                 .Select(c => c.OrderId)
